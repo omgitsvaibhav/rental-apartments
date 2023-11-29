@@ -13,14 +13,10 @@
     text-decoration: none;
 }
 
-.HomeAndLogin{
+.HomeAndLoginAndSearch{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.HomeAndLogin :link{
-    text-decoration: none;
 }
 
 .Home{
@@ -29,4 +25,17 @@
 
 .Login{
     padding: 0.5rem;
+}
+
+form{
+    border-radius: 10rem;
+    align-items: center;
+}
+input{
+    border-radius: 11px;
+    font: 15px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
 }

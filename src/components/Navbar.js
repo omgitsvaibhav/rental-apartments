@@ -10,13 +10,19 @@ function NavBar() {
           LOGO
         </Link>
       </div>
-      <div className="HomeAndLogin">
+      <div className="HomeAndLoginAndSearch">
         <Link className="Home" to="/">
           Home
         </Link>
         <Link className="Login" to="/LoginPage">
           Login
         </Link>
+
+        <div class="search">
+          <form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="search..." />
+          </form>
+        </div>
       </div>
     </nav>
   );
