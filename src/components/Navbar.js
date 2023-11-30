@@ -1,29 +1,39 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import LoginPage from "./LoginPage";
+import { useAuth0 } from "@auth0/auth0-react";
+import LogoutButton from "./LogoutPage.js";
 
 function NavBar() {
+  const { isAuthenticated } = useAuth0();
   return (
     <nav className="top-navbar">
-      <div className="Navbar-title">
-        <Link className="logo" to="/">
-          LOGO
-        </Link>
-      </div>
-      <div className="HomeAndLoginAndSearch">
-        <Link className="Home" to="/">
-          Home
-        </Link>
-        <Link className="Login" to="/LoginPage">
-          Login
-        </Link>
-
-        <div class="search">
-          <form role="search" id="form">
-            <input type="search" id="query" name="q" placeholder="search..." />
-          </form>
-        </div>
-      </div>
+      {!isAuthenticated && (
+        <>
+          <div className="Navbar-title">
+            <span className="logo" to="/">
+              LOGO
+            </span>
+          </div>
+          <LoginPage />
+        </>
+      )}
+      {isAuthenticated && (
+        <>
+          <div className="Navbar-title">
+            <span className="logo" >
+              LOGO
+            </span>
+          </div>
+          <div className="HomeAndAuthentication">
+            <Link className="Home" to="/">
+              Home
+            </Link>
+            <LogoutButton />
+          </div>
+        </>
+      )}
     </nav>
   );
 }

@@ -17,7 +17,7 @@ a{
     font-size: 3rem;
 }
 
-.HomeAndLoginAndSearch{
+.HomeAndAuthentication{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,20 +28,3 @@ a{
     padding: 0.5rem;
 }
 
-.Login{
-    font-size: 1.5rem;
-    padding: 0.5rem;
-}
-
-form{
-    border-radius: 10rem;
-    align-items: center;
-}
-input{
-    border-radius: 11px;
-    font: 15px system-ui;
-    color: black;
-    height: 100%;
-    width: 100%;
-    padding: 6px 9px;
-}
