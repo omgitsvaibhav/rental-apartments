@@ -5,17 +5,9 @@ import "./LoginPage.css";
 function LoginPage() {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
 
-  const handleLogin = async () => {
-    await loginWithRedirect({
-      appState: {
-        returnTo: "/dashboard",
-      },
-    });
-  };
-
     return (
       !isAuthenticated && (
-      <button className="Login" onClick={handleLogin}>
+      <button className="Login" onClick={()=> loginWithRedirect()}>
         Login
       </button>)
     );
