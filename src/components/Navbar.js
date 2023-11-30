@@ -1,9 +1,9 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import LoginPage from "./LoginPage";
+import LoginPage from "./Authentication/LoginPage.js";
 import { useAuth0 } from "@auth0/auth0-react";
-import LogoutButton from "./LogoutPage.js";
+import LogoutButton from "./Authentication/LogoutPage.js";
 
 function NavBar() {
   const { isAuthenticated } = useAuth0();

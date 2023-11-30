@@ -3,7 +3,7 @@ import HomePage from "./components/HomePage";
 import DashBoard from "./components/DashBoard";
 import { useAuth0 } from "@auth0/auth0-react";
 import NavBar from "./components/Navbar";
-import { AuthenticationGuard } from "./components/authentication-guard";
+import { AuthenticationGuard } from "./components/Authentication/authentication-guard";
 import { NotFoundPage } from "./components/NotFoundPage";
 
 function App() {
