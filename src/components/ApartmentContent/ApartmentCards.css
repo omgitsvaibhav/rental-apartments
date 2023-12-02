@@ -1,0 +1,16 @@
+.card{
+    float: left;
+    padding: 10px 10px;
+}
+.imagebox{
+    color: white;
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #bfc0c4;
+}
+img{
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+}

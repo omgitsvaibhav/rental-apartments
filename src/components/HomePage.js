@@ -1,11 +1,11 @@
 import React from "react";
-import DashBoard from "./DashBoard";
+import ApartmentList from "./ApartmentContent/ApartmentList";
 
 function HomePage (){
     return(
         <div>
-            <DashBoard />
             <h1>Inside Home page</h1>
+            <ApartmentList />
         </div>
     );
 }

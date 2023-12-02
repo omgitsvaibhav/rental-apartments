@@ -3,7 +3,7 @@ import HomePage from "./components/HomePage";
 import NavBar from "./components/Navbar";
 import { AuthenticationGuard } from "./components/Authentication/authentication-guard";
 import { NotFoundPage } from "./components/NotFoundPage";
-import DashBoard from "./components/DashBoard";
+import DashBoard from "./components/DashboardPage/DashBoard";
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
     <NavBar />
     <Routes>
       <Route path="/" element={<HomePage/>}/>
-      <Route path="/" element={<AuthenticationGuard component={DashBoard}/>}/>
       <Route path="*" element={<NotFoundPage />}/>
     </Routes>
     </>
