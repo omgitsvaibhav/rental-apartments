@@ -71,6 +71,9 @@ export const ApartmentsArr = [
     }*/
  export default function ApartmentList(){
   return(
-    <DashBoard/>
+    <>
+   <DashBoard/>
+   <Apartments apartments={ApartmentsArr}/>
+   </>
   );
  }  

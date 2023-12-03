@@ -16,7 +16,12 @@ function NavBar() {
               LOGO
             </span>
           </div>
+          <div className="links">
+          <Link className="contact" to="/contact">
+              Contact
+            </Link>
           <LoginPage />
+          </div>
         </>
       )}
       {isAuthenticated && (
@@ -26,9 +31,12 @@ function NavBar() {
               LOGO
             </span>
           </div>
-          <div className="HomeAndAuthentication">
+          <div className="links">
             <Link className="Home" to="/">
               Home
+            </Link>
+            <Link className="contact" to="/">
+              Contact
             </Link>
             <LogoutButton />
           </div>

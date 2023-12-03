@@ -46,7 +46,7 @@ export default function DashBoard() {
           <button className="searchButton" onClick={handleSearchResults}>search</button>
         </form>
       </div>
-      {searchResults=="" ? (<Apartments apartments={list}/>) : (<Apartments apartments={searchResults}/>)}
+      {searchResults && (<Apartments apartments={searchResults}/>)}
       </>)
     );
 }
