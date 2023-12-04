@@ -12,9 +12,9 @@ function NavBar() {
       {!isAuthenticated && (
         <>
           <div className="Navbar-title">
-            <span className="logo" to="/">
-              LOGO
-            </span>
+            <Link to="/" className="logo">
+              Logo
+            </Link >
           </div>
           <div className="links">
           <Link className="contact" to="/contact">
@@ -28,7 +28,7 @@ function NavBar() {
         <>
           <div className="Navbar-title">
             <span className="logo" >
-              LOGO
+              Logo
             </span>
           </div>
           <div className="links">

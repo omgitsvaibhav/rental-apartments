@@ -9,7 +9,7 @@ export const ApartmentsArr = [
       price: 955,
       address: "91 jump street, New york",
       zipcode: 60616,
-      src: "/Roomimages/Room1.png",
+      src: "/Images/Room1.png",
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ export const ApartmentsArr = [
       price: 855,
       address: "91 jump street, New york",
       zipcode: 60615,
-      src: "/Roomimages/Room2.png",
+      src: "/Images/Room2.png",
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ export const ApartmentsArr = [
       price: 1500,
       address: "Fatorda, Goa",
       zipcode: 403602,
-      src: "/Roomimages/Room3.png",
+      src: "/Images/Room3.png",
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ export const ApartmentsArr = [
       price: 1700,
       address: "St Xavier Road, Bengaluru",
       zipcode: 89642,
-      src: "/Roomimages/Room4.png",
+      src: "/Images/Room4.png",
     },
     {
       id: 5,
@@ -41,7 +41,7 @@ export const ApartmentsArr = [
       price: 750,
       address: "Fatorda, Goa",
       zipcode: 403601,
-      src: "/Roomimages/Room5.png",
+      src: "/Images/Room5.png",
     },
     {
       id: 6,
@@ -49,7 +49,7 @@ export const ApartmentsArr = [
       price: 1200,
       address: "91 jump street, New york",
       zipcode: 60616,
-      src: "/Roomimages/Room6.png",
+      src: "/Images/Room6.png",
     },
     {
       id: 7,
@@ -57,7 +57,7 @@ export const ApartmentsArr = [
       price: 980,
       address: "St Xavier Road, Bengaluru",
       zipcode: 89644,
-      src: "/Roomimages/Room7.png",
+      src: "/Images/Room7.png",
     },
   ];
 

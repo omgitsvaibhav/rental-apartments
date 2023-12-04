@@ -41,8 +41,9 @@ export default function DashBoard() {
         isAuthenticated && (
           <>
       <div className="search">
+        <p>Explore your dream Home</p>
         <form role="search" id="form">
-          <input onChange={handleSearch} type="search" id="query" placeholder="search..." value={searchQuery} />
+          <input onChange={handleSearch} type="search" id="query" placeholder="Enter an address, city or zipcode" value={searchQuery} />
           <button className="searchButton" onClick={handleSearchResults}>search</button>
         </form>
       </div>

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './ContactForm.css';
 
 export default function ContactForm() {
   const [enteredData, setenteredData] = useState({
@@ -77,7 +78,7 @@ export default function ContactForm() {
             />
           </div>
           <div className="form-control">
-            <label>email</label>
+            <label>Email</label>
             <input
               name="email"
               type="email"
@@ -87,7 +88,7 @@ export default function ContactForm() {
             />
           </div>
           <div className="form-control">
-            <label>date</label>
+            <label>Date</label>
             <input
               name="date"
               type="date"
