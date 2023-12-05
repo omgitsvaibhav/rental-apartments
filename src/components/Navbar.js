@@ -27,9 +27,9 @@ function NavBar() {
       {isAuthenticated && (
         <>
           <div className="Navbar-title">
-            <span className="logo" >
+            <Link className="logo" to="/">
               Logo
-            </span>
+            </Link>
           </div>
           <div className="links">
             <Link className="Home" to="/">
