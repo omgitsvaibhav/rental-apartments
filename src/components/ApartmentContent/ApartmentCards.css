@@ -1,16 +1,36 @@
 .card{
-    float: left;
     padding: 10px 10px;
 }
 .imagebox{
-    color: white;
+    color: black;
     border-radius: 29px;
-    padding: 15px;
+    padding: 0;
     text-align: center;
-    background-color: #bfc0c4;
+    background-color: transparent;
+}
+.captionbox{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    border-style: dotted;
+    border-width: 0 1px 1px 1px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+}
+ p{
+    font-size: 1.2rem;
+
+}
+.caption {
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 img{
-    height: 350px;
-    width: 300px;
+    height: 21.8rem;
+    width: 18.75rem;
     border-radius: 19px;
+    z-index: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }

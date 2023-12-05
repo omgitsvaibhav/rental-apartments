@@ -3,12 +3,12 @@ import "./Apartments.css";
 import React from "react";
 
 function Apartments(props) {
-  const {apartments} = props;
+  const { apartments } = props;
   return (
     <div className="apartments">
       {apartments.map((apartment) => (
         <ApartmentCards
-        key={apartment.id}
+          key={apartment.id}
           bed={apartment.bed}
           address={apartment.address}
           price={apartment.price}

@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './ContactForm.css';
+import NavBar from "../Navbar";
+import Footer from "../Footer";
 
 export default function ContactForm() {
   const [enteredData, setenteredData] = useState({
@@ -54,7 +56,10 @@ export default function ContactForm() {
   }
 
   return (
-    <div className="User-form">
+    <>
+    <NavBar />
+    <div className="User-form-background">
+    <div className="User-form-box">
       <form onSubmit={SubmitHandler}>
         <div className="form-controls">
           <div className="form-control">
@@ -103,5 +108,8 @@ export default function ContactForm() {
         </div>
       </form>
     </div>
+    </div>
+    <Footer />
+    </>
   );
 }

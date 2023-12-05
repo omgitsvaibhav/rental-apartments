@@ -35,7 +35,7 @@ function NavBar() {
             <Link className="Home" to="/">
               Home
             </Link>
-            <Link className="contact" to="/">
+            <Link className="contact" to="/contact">
               Contact
             </Link>
             <LogoutButton />

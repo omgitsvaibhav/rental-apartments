@@ -1,14 +1,20 @@
 import React from "react";
 import ApartmentList from "./ApartmentContent/ApartmentList";
-//import ContactForm from "./DataUpload/ContactForm";
-//import DashBoard from "./DashboardPage/DashBoard";
+import DashBoard from "./DashboardPage/DashBoard";
+//import { useAuth0 } from "@auth0/auth0-react";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
-function HomePage (){
-    return(
-        <div>
-            <ApartmentList/>
-        </div>
-    );
+function HomePage() {
+  //const { isAuthenticated } = useAuth0();
+
+  return (
+    <div>
+      <NavBar />
+      <DashBoard />
+      <Footer />
+    </div>
+  );
 }
 
 export default HomePage;
