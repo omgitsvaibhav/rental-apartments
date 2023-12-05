@@ -1,5 +1,4 @@
 import React from "react";
-import ApartmentList from "./ApartmentContent/ApartmentList";
 import DashBoard from "./DashboardPage/DashBoard";
 //import { useAuth0 } from "@auth0/auth0-react";
 import NavBar from "./Navbar";
