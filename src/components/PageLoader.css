@@ -1,0 +1,19 @@
+.pageloader{
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#spinner{
+    animation: spin 1s linear infinite;
+    color: rgb(219, 166, 96);
+}
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.spinner i{
+    margin-top: 10px;
+    margin-left: 50px;
+}

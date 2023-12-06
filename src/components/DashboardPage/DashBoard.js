@@ -5,6 +5,7 @@ import ApartmentList, {
 } from "../ApartmentContent/ApartmentList";
 import React, { useState } from "react";
 import Apartments from "../ApartmentContent/Apartments";
+import PageLoader from "../PageLoader";
 
 export default function DashBoard() {
   const { isAuthenticated, isLoading } = useAuth0();
@@ -33,7 +34,7 @@ export default function DashBoard() {
   }
 
   if (isLoading) {
-    return <div>loading...</div>;
+    return <PageLoader />;
   }
 
   return (

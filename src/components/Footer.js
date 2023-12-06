@@ -1,4 +1,4 @@
-import './footer.css'
+import './Footer.css'
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -11,20 +11,20 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <footer>
-        <div class="Footertitle">
+        <div className="Footertitle">
         <p>Logo</p>
       </div>
       <div className='FooterContact'>
         <Link to="/contact">Contact</Link>
       </div>
-      <div class="footer-links">
-          <a href="#" target="_blank" class="fab fa-twitter">
+      <div className="footer-links">
+          <a href="#" target="_blank" className="fab fa-twitter">
             <FontAwesomeIcon icon={faTwitter} size='2x'></FontAwesomeIcon>
           </a>
-          <a href="#" target="_blank" class="fab fa-linkedin">
+          <a href="#" target="_blank" className="fab fa-linkedin">
             <FontAwesomeIcon icon={faLinkedinIn} size='2x'></FontAwesomeIcon>
           </a>
-          <a href="#" target="_blank" class="fab fa-github">
+          <a href="#" target="_blank" className="fab fa-github">
             <FontAwesomeIcon icon={faGithub} size='2x'></FontAwesomeIcon>
           </a>
       </div>
