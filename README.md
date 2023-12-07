@@ -7,3 +7,5 @@ To run the file locally:
 - make the necessary changes and enter your Domain Id and Client Id in the Auth0Provider component.
 - For the social media icons, download the package called react-font-awesome. Without this, the icons wont display.
 - Finally, run npm start to run the application.
+
+Hosted version: https://rental-apartment-demo.web.app
