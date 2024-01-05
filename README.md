@@ -8,4 +8,3 @@ To run the file locally:
 - For the social media icons, download the package called react-font-awesome. Without this, the icons wont display.
 - Finally, run npm start to run the application.
 
-Hosted version: https://rental-apartment-demo.web.app
